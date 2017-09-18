@@ -1,6 +1,6 @@
-# #1 Rails new
+# 1 Rails new
 
-## Generate rails web application template
+## 1.1 Generate rails web application template
 
 Execute this command.
 ```sh
@@ -17,7 +17,7 @@ rails new mini_blog --skip-turbolinks --skip-test
   - Rails do not install `minitest` into your web application.
   - In this tutorial, we use `rspec` instead.
 
-## Run your web application
+## 1.2 Run your web application
 
 Execute this command.
 ```

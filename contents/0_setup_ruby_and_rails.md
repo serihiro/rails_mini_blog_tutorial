@@ -1,10 +1,10 @@
-# #0 Setup ruby and rails5
+# 0 Setup ruby and rails5
 In this tutorial, we use `rbenv` to manage ruby version.
 
-## 1. Install rbenv
+## 0.1 Install rbenv
 - Install rbenv by following with [rbenv install instruction](https://github.com/rbenv/rbenv#installation).
 
-## 2. Install ruby
+## 0.2 Install ruby
 
 ```sh
 rbenv install 2.4.2
@@ -12,13 +12,13 @@ rbenv global 2.4.2
 gem install bundler
 ```
 
-## 3. Install rails
+## 0.3 Install rails
 
 ```sh
 gem install rails -v 5.2.4
 ```
 
-## 4. Confirm done the setup successfully
+## 0.4 Confirm done the setup successfully
 
 ```sh
 ruby -v
