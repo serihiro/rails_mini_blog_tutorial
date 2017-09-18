@@ -1,6 +1,6 @@
-# #2 Generate model `Post`
+# 2 Generate model `Post`
 
-## Generate a model `Post` and create table `posts`
+## 2.1 Generate a model `Post` and create table `posts`
 
 You need a database table to stock contents of mini_blog post.  
 So you generate a database table and a model class to access it.
@@ -34,7 +34,7 @@ bin/rails db:migrate
 Now `posts` table is created at our SQLite databse.  
 Note: In defaut, rails uses a SQLite as a database. In this tutorial you use SQLite too.)
 
-## Add model validation
+## 2.2 Add model validation
 
 Open `app/models/posts.rb` and edit like this.
 
@@ -53,7 +53,7 @@ A line of `validates :content, length: { maximum: 140 }, presence: true` defines
 
 If you about to save Post model with some violations to this validation rules, rails raises a `ActiveRecord::RecordInvalid` error.
 
-## Access to database through model class
+## 2.3 Access to database through model class
 
 Now, `Post` model is ready to access your databse.   
 Let's try database access with `rails console`, which is a command line tool which you can execute rails web application code.
